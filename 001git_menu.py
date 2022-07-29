@@ -9,7 +9,7 @@ while opcao != 5:
    [ 3 ] NUMERO MAIOR
    [ 4 ] NOVOS NÚMEROS
    [ 5 ] SAIR DO PROGRAMA''')
-   opcao = int(input('>>>>> Qual a sua opção? '))
+   opcao = int(input('>>>>> ESCOLHA UMA OPÇÃO: '))
    if opcao == 1:
        soma = num1 + num2
        print(f'A soma entre {num1} + {num2} é {soma}')
